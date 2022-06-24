@@ -1,0 +1,94 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(234, 234, 234);
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 60px;
+  }
+  
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    
+    width:405px;
+    height: 250px;
+    justify-content: flex-end;
+    margin:20px;
+    overflow: hidden;
+  }
+  
+  .card p {
+    background-color: rgb(255, 255, 255);
+    color:rgb(56, 56, 56);
+    /* flex: 1; */
+    font-size: 1.2rem;
+   
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    position: relative;
+    bottom:10%;
+    z-index: 2;
+    text-align: center;
+    width:100%;
+   
+  }
+  
+.card img{
+  height:100%;
+  width:100%;
+  position: relative;
+  z-index: 1;
+  
+}
+  .x-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }	
+
+
+  .x-container button{
+
+    width:50px;
+    height:50px;
+    background-color:rgb(51, 51, 51);
+    color:white;
+    border:none;
+  }
+  .x-container h3{
+
+    font-size:3rem;
+  }
